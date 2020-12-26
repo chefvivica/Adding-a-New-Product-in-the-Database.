@@ -29,14 +29,8 @@
 		
 		<property name="hibernate.hbm2ddl.auto">
 			update
-		</property>
-
-
-		<!-- List of XML mapping files -->
-		<!-- <mapping class = "com.entity.Employee"/> <mapping class = "com.entity.Address"/> 
-			<mapping class = "com.entity.Student"/> <mapping class = "com.entity.Course"/> -->
-		
+		</property>	
 		<mapping class="com.entity.Products" />
-		<!-- <mapping class = "books.BookLibrary"/> <mapping class = "books.Books"/> -->
+
 	</session-factory>
 </hibernate-configuration>
